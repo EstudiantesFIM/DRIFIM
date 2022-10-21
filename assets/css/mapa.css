@@ -1,0 +1,15 @@
+.mapafimcentros #TEFIM-2:hover{
+   fill: aquamarine;
+}
+
+.mapafimcentros #CEDIM:hover{
+    fill: aquamarine;
+}
+
+#tefimhover{
+    visibility: hidden;
+}
+
+.mapafimcentros2 #TEFIM-2:hover + #tefimhover{
+    visibility: visible;
+  }
