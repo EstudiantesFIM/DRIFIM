@@ -18,6 +18,22 @@
     display: inline-block;
 }
 
+.info{
+    width: 45%;
+    margin: auto;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 800px){
+	.info{
+		width: 90%;
+	}
+	}
+
+
 main{
     width: 100%;
     max-width: 1200px;
